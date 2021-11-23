@@ -4,3 +4,9 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif !important;
 }
+
+hr.new2{
+ 
+    border-top: 1px solid black;
+    width:20px;
+  }
