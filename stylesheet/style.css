@@ -199,6 +199,10 @@ hr.new2 {
 
   color: #458ff6;
 }
+.view-all-article-btn:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
 
 @media screen and (max-width: 500px) {
   .customer-review {
