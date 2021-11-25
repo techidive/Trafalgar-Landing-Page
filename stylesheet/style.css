@@ -204,6 +204,32 @@ hr.new2 {
   color: #ffffff;
 }
 
+.footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  margin: 0 !important;
+  padding: 3rem !important;
+}
+.footer-about {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+
+  color: #ffffff;
+}
+
+.copyright {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.footer-links {
+  list-style: none;
+}
+
 @media screen and (max-width: 500px) {
   .customer-review {
     width: 100%;
