@@ -10,3 +10,28 @@ hr.new2{
     border-top: 1px solid black;
     width:20px;
   }
+  .services{
+  font-weight: 700!important;
+  font-family: 'Mulish', sans-serif!important;
+}
+.header-sec{
+  font-weight: 700!important;
+  font-family: 'Mulish', sans-serif!important;
+}
+.card{
+  border:1px solid white!important;
+  width:300px!important;
+  height:260px!important;
+  padding-top:10px!important;
+  margin-bottom:10px!important;
+  border-radius: 10px!important;
+  font-family: "Mulish", sans-serif !important;
+}
+.card-img-top{
+  width:55px!important;
+  margin-top:3px!important;
+}
+h4{
+  font-family: "Mulish", sans-serif !important;
+  font-size:24px!important;
+}
