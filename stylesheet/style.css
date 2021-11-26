@@ -4,11 +4,15 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif !important;
 }
-
+hr.new1 {
+  border-top: 1px solid black;
+  width: 40px;
+}
 hr.new2{
  
     border-top: 1px solid black;
-    width:20px;
+    width:56px;
+    height: 2px;
   }
   .services{
   font-weight: 700!important;
@@ -18,20 +22,338 @@ hr.new2{
   font-weight: 700!important;
   font-family: 'Mulish', sans-serif!important;
 }
+.service-text{
+  color: #7D7987;
+  font-size: 18px!important;
+  font-weight: 300!important;
+
+}
 .card{
+ 
+ box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
   border:1px solid white!important;
-  width:300px!important;
-  height:260px!important;
-  padding-top:10px!important;
-  margin-bottom:10px!important;
-  border-radius: 10px!important;
-  font-family: "Mulish", sans-serif !important;
+  width:345px!important;
+  /* height:249px!important; */
+  /* box-shadow: 10px 40px 50px 0px #E5E9F666;  */
+  
+  padding-top:10px!important; 
+   margin-bottom:10px!important;
+  border-radius: 20px!important; 
+  font-family: "Mulish", sans-serif !important; 
 }
-.card-img-top{
-  width:55px!important;
-  margin-top:3px!important;
+#img1-card-sec{
+  
+width: 91.98px;
+/* height: 90px; */
+
+
 }
-h4{
+#img2-card-sec{
+  
+  width: 61.9px;
+  /* height: 90px; */
+  
+  
+  }
+  #img3-card-sec{
+  
+    width: 67.3px;
+    /* height: 90px; */
+    
+    
+  }
+  #img4-card-sec{
+  
+    width:  67.08px;
+    /* height: 90px; */
+    
+    
+  }
+  #img5-card-sec{
+  
+    width: 80px
+    /* height: 90px; */
+    
+    
+  }
+  #img6-card-sec{
+  
+    width: 69.42px;
+    /* height: 90px; */
+    
+    
+  }
+/* h4{
   font-family: "Mulish", sans-serif !important;
   font-size:24px!important;
+} */
+.card-para{
+  color: #7d7987!important;
+  font-size: 16px!important;
+  font-weight:300!important;
+  line-height: 28px!important;
+  width:266px!important;
+}
+.card-heading{
+  font-weight:700!important;
+  font-size:24px!important;
+  line-height: 56px!important;
+  color: #000000!important;
+
+}
+.head-sec-para{
+  color: #7D7987;
+
+}
+.download-btn{
+  width:200px;
+  height:56px;
+  font-size:18px;
+  font-weight:bold;
+  background-color:  #458FF6;
+  color:white;
+;
+}
+hr.new2 {
+  border-top: 1px solid black;
+  width: 20px;
+}
+.services {
+  font-weight: 700 !important;
+  font-family: "Mulish", sans-serif !important;
+}
+.header-sec {
+  font-weight: 700 !important;
+  font-family: "Mulish", sans-serif !important;
+}
+.card {
+  border: 1px solid white !important;
+  width: 300px !important;
+  height: 260px !important;
+  padding-top: 10px !important;
+  margin-bottom: 10px !important;
+  border-radius: 10px !important;
+  font-family: "Mulish", sans-serif !important;
+}
+.card-img-top {
+  width: 55px !important;
+  margin-top: 3px !important;
+}
+/* h4 {
+  font-family: "Mulish", sans-serif !important;
+  font-size: 24px !important;
+} */
+
+.testmonial {
+  position: relative;
+  margin: 10rem auto;
+}
+
+.dot-bg {
+  position: absolute;
+  z-index: -10;
+  top: 12rem;
+}
+
+.customer-review {
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  /* height: 350px; */
+  width: 93%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.testmonial-heading {
+  font-size: 36px;
+  line-height: 48px;
+  font-style: normal;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#testmonial-hr {
+  background: #ffffff;
+  border-radius: 6px;
+  width: 56px;
+  margin: 20px auto;
+  height: 3px;
+  opacity: 0.65;
+}
+
+.customer-statement {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  /* or 158% */
+
+  color: rgba(255, 255, 255, 0.9);
+
+  mix-blend-mode: normal;
+}
+
+.user-detail h5 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  /* identical to box height, or 218% */
+
+  color: #ffffff;
+  margin: 0 !important;
+}
+
+.user-detail p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* identical to box height, or 267% */
+
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0 !important;
+}
+
+.dot-bg-white {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.our-article h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+
+  color: #000000;
+}
+
+.our-article {
+  position: relative;
+}
+.our-article h1 hr {
+  background: #000000;
+  border-radius: 5px;
+  width: 56px;
+  margin: 0 auto;
+  height: 3px;
+  opacity: 0.65;
+}
+
+.article-outer {
+  background-image: url("/assets/article-bg.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: right;
+}
+
+.articles-cards {
+  margin: 2rem 0;
+}
+
+.article-card {
+  background: #ffffff;
+  /* drop shadow */
+
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.6) !important;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.cart-top-img {
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.article-title {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+
+  color: #000000;
+}
+.article-para {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #7d7987;
+}
+
+.read-more-btn {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  /* identical to box height, or 165% */
+
+  color: #4089ed;
+  border: none;
+  background-color: transparent;
+}
+
+.view-all-article-btn {
+  background-color: transparent;
+  border: 1px solid #458ff6;
+  border-radius: 40px;
+  padding: 0.5rem 3rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  /* identical to box height, or 333% */
+
+  color: #458ff6;
+}
+.view-all-article-btn:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  margin: 0 !important;
+  padding: 3rem !important;
+}
+.footer-about {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+
+  color: #ffffff;
+}
+
+.copyright {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+@media screen and (max-width: 500px) {
+  .customer-review {
+    width: 100%;
+  }
+  .testmonial-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .customer-statement {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .user-img {
+    margin: 0 1rem 0 0 !important;
+    width: 128px;
+  }
+  .user-detail h5 {
+    font-size: 18px;
+  }
 }
