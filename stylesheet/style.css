@@ -291,6 +291,7 @@ hr.new2 {
   background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
   margin: 0 !important;
   padding: 3rem !important;
+  position: relative;
 }
 .footer-about {
   font-style: normal;
@@ -324,6 +325,11 @@ hr.new2 {
   font-size: 20px;
   line-height: 60px;
   color: #ffffff;
+}
+.dot-bg-white-footer {
+  position: absolute;
+  bottom: 0;
+  left: -2rem;
 }
 
 @media screen and (max-width: 500px) {
