@@ -59,6 +59,9 @@ hr.new2 {
   width: 80px;
   /* height: 90px; */
 }
+.nav-link:hover{
+  cursor: pointer!important;
+}
 #img6-card-sec {
   width: 69.42px;
   /* height: 90px; */
