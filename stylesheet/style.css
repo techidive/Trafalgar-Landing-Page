@@ -10,7 +10,7 @@ hr.new1 {
 }
 hr.new2 {
   border-top: 1px solid black;
-  width: 35px!important;
+  width: 35px !important;
   height: 2px;
 }
 .services {
@@ -59,8 +59,8 @@ hr.new2 {
   width: 80px;
   /* height: 90px; */
 }
-.nav-link:hover{
-  cursor: pointer!important;
+.nav-link:hover {
+  cursor: pointer !important;
 }
 #img6-card-sec {
   width: 69.42px;
@@ -80,7 +80,7 @@ hr.new2 {
 .card-heading {
   font-weight: 700 !important;
   font-size: 24px !important;
-  line-height: 56px !important;
+  margin-top: 1rem;
   color: #000000 !important;
 }
 .head-sec-para {
@@ -108,21 +108,37 @@ hr.new2 {
 }
 .card {
   border: 1px solid white !important;
-  width: 300px !important;
-  height: 260px !important;
-  padding-top: 10px !important;
-  margin-bottom: 10px !important;
-  border-radius: 10px !important;
+  width: 320px !important;
+  min-height: 300px;
+  border-radius: 20px !important;
   font-family: "Mulish", sans-serif !important;
 }
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .card-img-top {
-  width: 55px !important;
-  margin-top: 3px !important;
+  height: 48px !important;
+  width: 48px !important;
 }
 /* h4 {
   font-family: "Mulish", sans-serif !important;
   font-size: 24px !important;
 } */
+#dot-service {
+  position: absolute;
+  right: 0;
+  top: 25rem;
+}
+
+#ourservice-container {
+  background-image: url("/assets/ourservice-bg.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+}
 
 .testmonial {
   position: relative;
